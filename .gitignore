@@ -1,0 +1,13 @@
+.vscode/
+.idea/
+.DS_Store
+
+node_modules/
+coverage/
+
+dist/
+.parcel-cache/
+parcel-bundle-reports
+
+yarn-error.log
+scripts/generate-instant-micros-template/actual-output/

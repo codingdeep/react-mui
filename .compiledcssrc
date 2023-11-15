@@ -1,0 +1,15 @@
+
+{
+  "importReact": true,
+  "extract": true,
+  "inlineCss": false,
+  "addComponentName": true,
+  "extensions": [
+    ".ts",
+    ".tsx"
+  ],
+  "parserBabelPlugins": [
+    "typescript",
+    "jsx"
+  ]
+}
