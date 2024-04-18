@@ -17,7 +17,9 @@ module.exports = {
         "^.+\\.jsx$": "babel-jest"
     },
     transformIgnorePatterns: ['/node_modules/(?!(@atlaskit|@atlassiansox)/)'],
+    setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
     moduleNameMapper: {
+        "\\.(css|less|scss|sass)$": "identity-obj-proxy",
         '.*\\.(css|less|styl|scss|sass)$': 'css-loader',
         '^~src/(.*)$': '<rootDir>/src/$1',
         '^type$': 'component-type',
